@@ -1,12 +1,17 @@
 import React from 'react';
 
-import './sign-in-and-sign-up-page.styles.scss';
+import './sign-in-and-sign-up.styles.scss';
 
-import Signin from '../../components/sign-in/sign-in.component';
+
+import SignIn from '../../components/sign-in/sign-in.component';
+import SignUp from '../../components/sign-up/sign-up.componet';
 
 
 const SignInAndSignUpPage = ()=>(
-    <div className='sign-in-and-sign-up'><Signin/></div>
+    <div className='sign-in-and-sign-up'>
+        <SignIn/>
+        <SignUp/>
+    </div>
 )
 
 export default SignInAndSignUpPage;
